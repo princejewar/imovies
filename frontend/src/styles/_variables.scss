@@ -1,0 +1,28 @@
+$accent: #dc143c;
+$accent-hover: #f0224f;
+$radius: 10px;
+$font: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+// Theme tokens are CSS variables so the sun/moon button can switch them at runtime.
+:root, [data-theme='dark'] {
+  --bg: #1e2639;
+  --surface: #0e1628;
+  --field: #1e2639;
+  --text: #e6e8ee;
+  --muted: #9aa3b5;
+  --card: #141414;
+  --border: rgba(255, 255, 255, 0.09);
+  --seat: #2b3550;
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+[data-theme='light'] {
+  --bg: #eef1f7;
+  --surface: #ffffff;
+  --field: #eef1f7;
+  --text: #161b2b;
+  --muted: #5b647a;
+  --card: #ffffff;
+  --border: rgba(20, 30, 60, 0.12);
+  --seat: #d5dbea;
+  --shadow: 0 6px 24px rgba(20, 30, 60, 0.12);
+}
